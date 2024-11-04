@@ -1,0 +1,31 @@
+{
+	"manifest_version": 2,
+	
+	"name": "Web App Links",
+	"version": "0.2.0",
+	"description": "Opens external links in your default browser. Any links that share the same origin will be unaffected. Works best if your default browser is not firefox or if this addon is installed in your non-default firefox profile.",
+
+	"icons": {
+		"256": "icons/webapplinks.png"
+	},
+
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "@webapplinks"
+		}
+	},
+
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["webapplinks.js"]
+		}
+	],
+
+	"permissions": ["nativeMessaging"]
+}
+

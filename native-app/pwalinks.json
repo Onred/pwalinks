@@ -1,7 +1,7 @@
 {
-	"name": "webapplinks",
+	"name": "pwalinks",
 	"description": "Opens external links in your default browser. Any links that share the same origin will be unaffected. Works best if your default browser is not firefox or if this addon is installed in your non-default firefox profile.",
-	"path": "@HOME@/.mozilla/native-messaging-hosts/webapplinks.py",
+	"path": "%APPDIR%",
 	"type": "stdio",
-	"allowed_extensions": [ "@webapplinks" ]
+	"allowed_extensions": [ "@pwalinks" ]
 }

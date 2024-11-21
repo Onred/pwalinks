@@ -1,8 +1,8 @@
 {
-	"manifest_version": 3,
+	"manifest_version": 2,
 	
 	"name": "PWA Links",
-	"version": "0.3.0",
+	"version": "0.1.0",
 	"description": "Opens external links in your default browser. Any links that share the same origin will be unaffected. Works best if your default browser is not Firefox or if this addon is installed in a different Firefox profile than your default profile.",
 
 	"icons": {

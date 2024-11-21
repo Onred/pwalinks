@@ -1,6 +1,6 @@
 {
 	"name": "pwalinks",
-	"description": "Opens external links in your default browser. Any links that share the same origin will be unaffected. Works best if your default browser is not firefox or if this addon is installed in your non-default firefox profile.",
+	"description": "Opens external links in your default browser. Any links that share the same origin will be unaffected. Works best if your default browser is not Firefox or if this addon is installed in a different Firefox profile than your default profile.",
 	"path": "%APPDIR%",
 	"type": "stdio",
 	"allowed_extensions": [ "@pwalinks" ]

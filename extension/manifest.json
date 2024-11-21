@@ -3,7 +3,7 @@
 	
 	"name": "PWA Links",
 	"version": "0.3.0",
-	"description": "Opens external links in your default browser. Any links that share the same origin will be unaffected. Will work only if your default browser is not firefox or if this addon is installed in your non-default firefox profile.",
+	"description": "Opens external links in your default browser. Any links that share the same origin will be unaffected. Works best if your default browser is not Firefox or if this addon is installed in a different Firefox profile than your default profile.",
 
 	"icons": {
 		"256": "icons/pwalinks.png"
